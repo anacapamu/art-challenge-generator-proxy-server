@@ -1,5 +1,5 @@
 # Art Challenge Generator Proxy Server
-The Art Challenge proxy server is to be used with the [Art Challenge Generator] (https://github.com/anacapamu/art-challenge-generator) web app. 
+The Art Challenge proxy server is to be used with the [Art Challenge Generator](https://github.com/anacapamu/art-challenge-generator) web app. 
 
 ## Quick Start
 1. Create a `.env` file with API keys

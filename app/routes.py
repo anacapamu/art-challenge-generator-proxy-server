@@ -21,7 +21,7 @@ def get_random_word():
     return response.json()
 
 @proxy_bp.route("/art", methods=["GET"])
-def get_random_art():
+def get_art():
     response = requests.get(
         "https://www.rijksmuseum.nl/api/en/collection",
         params={"key": art_key, "ps": "100", "p": random.randrange(0,99), "imgonly": "true", }
